@@ -1,19 +1,37 @@
+# 📘 Assignment: Hangman Game
 
-# 🎮 Hangman Game Challenge
+## 🎯 Objective
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+Build a text-based Hangman game that lets a player guess a randomly selected word. Practice using strings, loops, conditionals, lists, and user input to track guesses and determine the outcome.
 
-## � What You'll Build
+## 📝 Tasks
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+### 🛠️ Set Up the Game and Process Guesses
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+#### Description
 
-## ✅ Must Have's
+Use the provided word list to choose a secret word, then repeatedly ask the player to guess letters and show which letters have been revealed.
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Requirements
+
+Completed program should:
+
+- Randomly select one word from the predefined word list.
+- Display each letter in the secret word as a blank until it is guessed, preserving the word's letter positions.
+- Accept guesses without treating uppercase and lowercase versions of the same letter as different guesses.
+- Reveal matching letters and keep track of incorrect guesses.
+
+### 🛠️ Track Attempts and Finish the Game
+
+#### Description
+
+Limit the number of incorrect guesses and end the game when the player either reveals the full word or runs out of attempts.
+
+#### Requirements
+
+Completed program should:
+
+- Set and display a maximum number of incorrect guesses, and reduce the remaining attempts for each incorrect guess.
+- Continue asking for guesses while the word is incomplete and attempts remain.
+- Display a clear win message when the player guesses the full word.
+- Display a clear loss message and reveal the secret word when the player runs out of attempts.
