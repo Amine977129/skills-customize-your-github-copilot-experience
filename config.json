@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "database-backed-apis-sqlite",
+      "title": "Database-Backed APIs with SQLite",
+      "description": "Extend the FastAPI task API to persist records in SQLite across server restarts",
+      "path": "assignments/database-backed-apis-sqlite",
+      "dueDate": "2026-10-28",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "main.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
